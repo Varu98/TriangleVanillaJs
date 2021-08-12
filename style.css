@@ -96,3 +96,18 @@ body {
   height: auto;
   width: 200px;
 }
+
+.left-margin {
+  text-align: left;
+  margin-left: 10%;
+}
+.padding {
+  margin-bottom: 2rem;
+}
+.quiz-output {
+  background-color: var(--amaranth-red);
+  width: 400px;
+  padding: 1rem;
+  font-size: 2rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}

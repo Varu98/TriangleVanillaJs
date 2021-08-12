@@ -4,27 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Triangle Quiz</title>
   </head>
-  <body>
+  <body class="left-margin">
     <h1>Lets See How Much We Know About Triangles</h1>
     <h2>A Quiz</h2>
     <form id="form">
       <div class="quiz-container">
-        <p>Which angle can be identiifed in a right-angled triangle</p>
-        <label>
+        <p>1) Which angle can be identiifed in a right-angled triangle</p>
+        <label class="padding">
           <input type="radio" name="1st" id="1st" value="45°" />45°
           <input type="radio" name="1st" id="1st" value="60°" />60°
           <input type="radio" name="1st" id="1st" value="90°" />90°
-        </label>
-        <p>How Many Angles make Up A Triangle</p>
-        <label>
+        </label> <br><br>
+        <p>2) How Many Angles make Up A Triangle</p>
+        <label class="padding">
           <input type="radio" name="2nd" id="2nd" value="270°" />270°
           <input type="radio" name="2nd" id="2nd" value="180°" />180°
           <input type="radio" name="2nd" id="2nd" value="360°" />360°
-        </label>
-        <p>Area of Triangle Formula</p>
-        <label>
+        <br><br>
+        <p>3) Area of Triangle Formula</p>
+        <label class="padding">
           <input
             type="radio"
             name="3rd"
@@ -43,9 +44,9 @@
             id="3rd"
             value="(Base X Height) / 2"
           />(Base X Height) / 2
-        </label>
-        <p>Which of the following triangles are always similar?</p>
-        <label>
+        <br><br>
+        <p>4) Which of the following triangles are always similar?</p>
+        <label class="padding">
           <input type="radio" name="4th" id="4th" value="Right triangle" />Right
           triangle
           <input
@@ -60,14 +61,16 @@
             id="4th"
             value="Isoceles triangle"
           />Isoceles triangle
-        </label>
-        <p>Triangle has how many sides</p>
-        <label>
+        <br><br>
+        <p>5) Triangle has how many sides</p>
+        <label class="padding">
           <input type="radio" name="4th" id="4th" value="1" />1
           <input type="radio" name="4th" id="4th" value="2" />2
           <input type="radio" name="4th" id="4th" value="3" />3
-        </label>
+        <br><br>
       </div>
+      <button class="btn-s" id="btn" type="submit">Submit Answers</button>
     </form>
+    <div class="quiz-output">Your Scores Will Show Here</div>
   </body>
 </html>
